@@ -37,30 +37,30 @@ Startup Preparation:
 
 To Fix Errors Frame by Frame:
   If the wings are open and the angle is not captured correctly:
-    1. Switch the 'WingDetected' switch to 'Two'.
-    2. Drag the orange and blue line to match the angle of the wing. 
-     The length of the dragged line does not matter since it will be adjusted to the average wing length based on the tracking info.
-    3. The green line indicate the wing_trough_angle, which will be updated automatically based on the fixed angle of both wings.
-    4. Click 'Fix' button.
+  1. Switch the 'WingDetected' switch to 'Two'.
+  2. Drag the orange and blue line to match the angle of the wing. 
+   The length of the dragged line does not matter since it will be adjusted to the average wing length based on the tracking info.
+  3. The green line indicate the wing_trough_angle, which will be updated automatically based on the fixed angle of both wings.
+  4. Click 'Fix' button.
 
   If the wings are closed and the angle is not captured correctly:
-    1. Switch the 'WingDetected' switch to 'One'.
-    2. Click 'Fix' button.
+  1. Switch the 'WingDetected' switch to 'One'.
+  2. Click 'Fix' button.
 
 To Fix Errors in Batch:
   If the wings are opening and closing on a constant rate:
-    1. Switch the 'WingDetected' switch to 'Two'.
-    2. In the video viewer, pull out the beginning frame and drag the wing line to the correct position.
-    3. Click the 'Set' button next to 'Begin' number box in the interpolation panel.
-    4. In the video viewer, pull out the ending frame and drag the wing line to the correct position.
-    5. Click the 'Set' button next to 'End' number box in the interpolation panel.
-    6. Click the 'Interpolate' button.
+  1. Switch the 'WingDetected' switch to 'Two'.
+  2. In the video viewer, pull out the beginning frame and drag the wing line to the correct position.
+  3. Click the 'Set' button next to 'Begin' number box in the interpolation panel.
+  4. In the video viewer, pull out the ending frame and drag the wing line to the correct position.
+  5. Click the 'Set' button next to 'End' number box in the interpolation panel.
+  6. Click the 'Interpolate' button.
     
   If the wings are closed throughout a period of time:
-    1. Switch the 'WingDetected' switch to 'One'.
-    2. Type in the beginning frame index in 'Begin' number box in the interpolation panel.
-    3. Type in the ending frame index in 'End' number box in the interpolation panel.
-    4. Click the 'Interpolate' button.
+  1. Switch the 'WingDetected' switch to 'One'.
+  2. Type in the beginning frame index in 'Begin' number box in the interpolation panel.
+  3. Type in the ending frame index in 'End' number box in the interpolation panel.
+  4. Click the 'Interpolate' button.
 
 To Save Progress:
   1. Click 'Quick Save' switch. When the save is completed, the switch will go back to 'saved' position from 'saving' position.
