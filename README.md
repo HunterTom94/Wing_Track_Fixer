@@ -36,6 +36,7 @@ Startup Preparation:
    It is also possible to change the number in 'frame_index' to call out certain frame of the video with tracking info.
 
 To Fix Errors Frame by Frame:
+  
   If the wings are open and the angle is not captured correctly:
   1. Switch the 'WingDetected' switch to 'Two'.
   2. Drag the orange and blue line to match the angle of the wing. 
@@ -48,6 +49,7 @@ To Fix Errors Frame by Frame:
   2. Click 'Fix' button.
 
 To Fix Errors in Batch:
+  
   If the wings are opening and closing on a constant rate:
   1. Switch the 'WingDetected' switch to 'Two'.
   2. In the video viewer, pull out the beginning frame and drag the wing line to the correct position.
